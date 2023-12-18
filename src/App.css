@@ -1,0 +1,95 @@
+*{
+    background: var(--Background---color, #C8E6C9);
+    font-family: "Poppins", sans-serif;
+   
+    
+}
+
+
+
+
+.CardContainer{
+    width: 1122px;
+    height: 707px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius:32px 0px 0px 32px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+   box-shadow:5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+   
+
+
+
+.InternalContainer{
+    width:341px;
+    height:667px;
+    background-color:#2E7D32;
+    border-radius:32px 0px 0px 32px;
+    padding-top:40px;
+    
+}
+
+
+
+
+.PicContainer{
+
+    width:340px;
+height:549px;
+background:url('/Images/user-photo.png');
+margin-bottom:78px;
+margin-left: 273px;
+padding-top:56px;
+
+
+
+}
+
+
+.square1{
+width: 50px;
+height: 48px;
+background: var(--Gray---300, #E0E0E0);
+margin-left:-24px;
+
+}
+
+.square2{
+    width: 50px;
+    height: 48px;
+    background: var(--Gray---300, #E0E0E0);
+    margin-top:533px;
+    margin-left:42px;
+}
+
+.square3{
+width: 50px;
+height: 21px;
+background: var(--Gray---300, #E0E0E0);
+margin-left:324px;
+margin-top:-82px;
+}
+
+.circle{
+    width:61px;
+    height:61px;
+    border-radius:61px;
+    background-color:#2E7D32;
+    margin-left:305px;
+    margin-top:-61px;
+    
+}
+
+.Email{
+    color: var(--white-87-opacity, rgba(255, 255, 255, 0.87));
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:241px;
+}
